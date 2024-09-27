@@ -1,0 +1,116 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: Gold;
+}
+
+header {
+    background-color: white;
+    color: black;
+    padding: 10px 0;
+    border-bottom: 2px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.links-esquerda, .links-direita {
+    display: flex;
+}
+
+.links-esquerda a, .links-direita a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 0 20px;
+}
+
+.links-esquerda a:hover, .links-direita a:hover {
+    text-decoration: underline;
+}
+
+.titulo {
+    margin: 7px;
+    flex: 1;
+    text-align: center;
+}
+.formulario {
+    font-size: small;
+    text-align: end;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 27px;
+    padding: 20px;
+    max-width: 500px;
+    max-height: 250px;
+    margin: 50px 0px 0px 30px;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.form-group label {
+    margin-right: 5px;
+    width: 90px;
+}
+.form-group input {
+    flex: 1;
+}
+.formulario label {
+    display: block;
+    margin: 10px 0 0 10px;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 80px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+}
+
+.formulario button {
+    background-color: gray;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+}
+
+.formulario button:hover {
+    background-color: #555;
+}
+.image-container {
+    width: 500px; 
+    height: 450px; 
+    background-image: url('https://w7.pngwing.com/pngs/635/590/png-transparent-file-manager-android-file-explorer-computer-icons-android.png'); /* Replace with your transparent .png URL */
+    background-size: cover; 
+    background-position: center;
+    position: absolute; 
+    top: 60%; 
+    right: 20px; 
+    transform: translateY(-50%); 
+    background-color: transparent; 
+}
+p {
+    margin: 10px 0 0 30px; 
+    text-align: left;  
+    font-size: normal;
+    font-weight: bold ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
