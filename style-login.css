@@ -96,7 +96,7 @@ nav {
 .image-container {
     width: 500px; 
     height: 450px; 
-    background-image: url('https://w7.pngwing.com/pngs/635/590/png-transparent-file-manager-android-file-explorer-computer-icons-android.png'); /* Replace with your transparent .png URL */
+    background-image: url('https://w7.pngwing.com/pngs/635/590/png-transparent-file-manager-android-file-explorer-computer-icons-android.png'); 
     background-size: cover; 
     background-position: center;
     position: absolute; 
